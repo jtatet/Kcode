@@ -22,28 +22,28 @@ let updateTimer;
 
 const music_list = [
     {
-        img : '/Kcode!bate/Kcode_Debug_login/images/雨とネオン.png',
+        img : '/Kcode/Kcode!bate/Kcode_Debug_login/images/雨とネオン.png',
         name : '雨とネオン',
         artist : '騒音のない世界',
-        music : '/Kcode!bate/Kcode_Debug_login/music/雨とネオン.mp3'
+        music : '/Kcode/Kcode!bate/Kcode_Debug_login/music/雨とネオン.mp3'
     },
     {
-        img : '/Kcode!bate/Kcode_Debug_login/images/春泥棒.png',
+        img : '/Kcode/Kcode!bate/Kcode_Debug_login/images/春泥棒.png',
         name : '春泥棒',
         artist : 'ヨルシカ',
-        music : '/Kcode!bate/Kcode_Debug_login/music/春泥棒.mp3'
+        music : '/Kcode/Kcode!bate/Kcode_Debug_login/music/春泥棒.mp3'
     },
     {
-        img : '/Kcode!bate/Kcode_Debug_login/images/あの夢をなぞって.png',
+        img : '/Kcode/Kcode!bate/Kcode_Debug_login/images/あの夢をなぞって.png',
         name : 'あの夢をなぞって',
         artist : 'YOASOBI',
-        music : '/Kcode!bate/Kcode_Debug_login/music/あの夢をなぞって.mp3'
+        music : '/Kcode/Kcode!bate/Kcode_Debug_login/music/あの夢をなぞって.mp3'
     },
     {
-        img : '/Kcode!bate/Kcode_Debug_login/images/赤い花火.png',
+        img : '/Kcode/Kcode!bate/Kcode_Debug_login/images/赤い花火.png',
         name : '赤い花火',
         artist : 'back number',
-        music : '/Kcode!bate/Kcode_Debug_login/music/赤い花火.mp3'
+        music : '/Kcode/Kcode!bate/Kcode_Debug_login/music/赤い花火.mp3'
     }
 ];
 
