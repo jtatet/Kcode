@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MiniGame</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <div class="btn-border-gradient-wrap">
+      <button id="btn btn-border-gradient">スタート!</button>
+      </div>
+    <style>
+        #container{
+          position: relative;
+          margin: auto;
+          width: 700px;
+        }
+ 
+        #next-canvas{
+          position: absolute; 
+          top: 0;
+          left:400px;
+        }
+ 
+        #img-howto{
+          position: absolute;
+          bottom: 200px;
+          left: 360px;
+        }
+      </style>
+  </head>
+  <body>
+    <div id="container">
+      <canvas id="main-canvas"></canvas>
+        <canvas id="next-canvas"></canvas>
+        <img id="img-howto" src="images/howto.png">
+    </div>
+    <script src='index.js'></script>
+  </body>
+</html>
