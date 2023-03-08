@@ -140,20 +140,13 @@ button{
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form>
+    <form name="formno1">
         <h3>Debug Mode Login</h3>
         <h5>開発者専用ログイン</h5>
-
         <label for="password">Password</label>
-        <input type="password"  onclick="gate();" placeholder="Password" id="password">
-            <script type="text/javascript">
-   function gate() {
-      var UserInput = prompt("パスワードを入力して下さい:","");
-      location.href = UserInput + ".html";
-   }
-</script>
+        <input type="password" name="passwd">
+        <input type="button" value="Login" onClick="goLoginPage();">
+        <script src='index.js'></script>
     </form>
-    <script src='index.js'></script>
-</script>
 </body>
 </html>
